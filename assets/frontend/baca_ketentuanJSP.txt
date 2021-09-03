@@ -1,0 +1,23 @@
+<!--letakan didaerah<head> //datatable//sopianaji.blogspot.com-->
+    <link rel="stylesheet" href="datatables/css/bootstrap-editable.css">
+    <link rel="stylesheet" href="datatables/css/bootstrap-table.css">    
+<!--atau letakan sebelum</head> //datatable//sopianaji.blogspot.com-->
+
+<!--letakan didaerah footer //datatable//sopianaji.blogspot.com-->
+    <script src="datatables/js/bootstrap-table.js"></script>
+    <script src="datatables/js/tableExport.js"></script>
+    <script src="datatables/js/data-table-active.js"></script>
+    <script src="datatables/js/bootstrap-table-editable.js"></script>
+    <script src="datatables/js/bootstrap-editable.js"></script>
+    <script src="datatables/js/bootstrap-table-resizable.js"></script>
+    <script src="datatables/js/colResizable-1.5.source.js"></script>
+    <script src="datatables/js/bootstrap-table-export.js"></script>
+<!--atau letakan sebelum</body> //datatable//sopianaji.blogspot.com-->
+
+<!--ganti class table pada view seperti berikut-->
+<div id="toolbar">
+	<a href="" title="Ganti tombol sesuai dengan kebutuhan"> <button type="button" class="btn btn-default"><i class="fa fa-plus"></i> Ganti</button> </a>
+</div>
+<table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true" data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
+<!--End ganti class table pada view seperti berikut-->
+
